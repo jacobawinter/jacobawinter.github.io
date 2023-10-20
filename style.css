@@ -9,3 +9,7 @@ h1{
     font: Roboto;
     color: #171717;
 }
+img {
+    width: 5%;
+    height: auto;
+  }
