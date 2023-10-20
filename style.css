@@ -1,6 +1,11 @@
 body{
-margin=.5;
+margin: .5;
 background: #ffffff;
 text-align: center;
 font: Roboto;
+color: #171717;
+}
+h1{
+    font: Roboto;
+    color: #171717;
 }
