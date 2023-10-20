@@ -1,7 +1,7 @@
 body{
 margin: .5;
 background: #ffffff;
-text-align: center;
+text-align: left;
 font: Roboto;
 color: #171717;
 }
@@ -10,6 +10,6 @@ h1{
     color: #171717;
 }
 img {
-    width: 5%;
+    width: 25%;
     height: auto;
   }
