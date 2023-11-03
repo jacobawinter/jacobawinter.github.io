@@ -1,4 +1,4 @@
-name: run main.py
+name: run get_schedule.py
 # Thanks: https://github.com/patrickloeber/python-github-action-template/blob/main/.github/workflows/actions.yml
 on:
   schedule:
