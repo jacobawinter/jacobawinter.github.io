@@ -2,11 +2,11 @@ body{
 margin: .5;
 background: #ffffff;
 text-align: left;
-font: Roboto;
+font-family: "Dosis";
 color: #171717;
 }
 h1{
-    font: Roboto;
+    font-family: "Dosis";
     color: #171717;
 }
 img {
