@@ -2,3 +2,4 @@ requests==2.28.1
 beautifulsoup4
 datetime
 pandas
+lxml
