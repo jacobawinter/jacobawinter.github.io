@@ -23,8 +23,8 @@ jobs:
           pip install -r .github/workflows/requirements.txt
 
       - name: execute py script # run main.py
-        env:
-          SOME_SECRET: ${{ secrets.SOME_SECRET }}
+        #env:
+          #SOME_SECRET: ${{ secrets.SOME_SECRET }}
         run: python get_schedule.py
 
       - name: commit files
