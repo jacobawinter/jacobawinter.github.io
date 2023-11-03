@@ -10,14 +10,20 @@
 <body>
 <h1>Today's Swims</h1>
 
+<div class="object">
 <object type="text/html" data="today.html"></object>
-
+</div>
 
 <div id="includeHtml"></div>
 
 <h1>Weekly Schedule</h1>
 
-<object type="text/html" data="pool_schedule.html"></object>
+<!--Make object full width-->
+<div class="styled-table">
+<object type="text/html" class = "styled-table" data="pool_schedule.html" width = 100% height = 100%></object>
+</div>
+
+
 
 </body>
 </html>

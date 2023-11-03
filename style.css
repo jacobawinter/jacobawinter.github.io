@@ -2,14 +2,35 @@ body{
 margin: .5;
 background: #ffffff;
 text-align: left;
-font-family: "Dosis";
+font-family: "Roboto";
 color: #171717;
 }
 h1{
-    font-family: "Dosis";
+    font-family: "Roboto";
     color: #171717;
+    background-color: skyblue;
+    text-align: center;
 }
 img {
     width: 25%;
     height: auto;
   }
+
+div {
+    /* I added this just for fun */
+    
+    color: white;
+    font-family: Roboto;
+    padding: 5px;
+    text-align: center;
+
+  }
+
+ object {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
