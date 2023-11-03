@@ -24,8 +24,11 @@ pam = get_data("https://www.toronto.ca/data/parks/prd/facilities/complex/2012/in
 place = ['Jimmie Simpson', 'Pam McConnell']
 
 #concat dataframes
-df = jimmie.append(pam)
+df = pd.concat([jimmie, pam], ignore_index=True)
+
+#df = jimmie.append(pam)
 df["Location"] = ['Jimmie Simpson', 'Pam McConnell']
+df = df.drop(columns=['Program'])
 
 #Put location column first
 cols = df.columns.tolist()
@@ -34,7 +37,7 @@ df = df[cols]
 
 #save as html table
 html = df.to_html(index = False)
-html = html.replace('<table border="1" class="dataframe">', '<table class="table table-striped">')
+# html = html.replace('<table border="1" class="dataframe">', '<table class="table table-striped">')
 html = html.replace('<thead>', '<thead class="thead-dark">')
 html = html.replace('<tr style="text-align: right;">','<tr>')
 html = html.replace('<tr>','<tr class="table-primary">')
