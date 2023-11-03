@@ -26,7 +26,6 @@ place = ['Jimmie Simpson', 'Pam McConnell']
 #concat dataframes
 df = pd.concat([jimmie, pam], ignore_index=True)
 
-#df = jimmie.append(pam)
 df["Location"] = ['Jimmie Simpson', 'Pam McConnell']
 df = df.drop(columns=['Program'])
 
