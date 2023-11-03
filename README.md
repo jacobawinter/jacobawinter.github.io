@@ -1,3 +1,3 @@
-# test2
+# Homepage
 
-Testing this editor.
+Profile and some personal projects
