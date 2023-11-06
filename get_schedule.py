@@ -6,9 +6,15 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 import pandas as pd
+import pytz
 
-now = datetime.datetime.now()
+now = datetime.datetime.now(pytz.timezone('America/Toronto'))
+
 now = now.strftime("%a %b %d")
+
+# set time in toronto timezone
+# now = datetime.datetime.now(pytz.timezone('America/Toronto'))
+
 
 def get_data(url):
     page = requests.get(url)
