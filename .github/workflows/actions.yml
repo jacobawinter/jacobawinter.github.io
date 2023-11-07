@@ -2,7 +2,7 @@ name: run get_schedule.py
 # Thanks: https://github.com/patrickloeber/python-github-action-template/blob/main/.github/workflows/actions.yml
 on:
   schedule:
-   - cron: '0 0 * * *' # At 00:00 Every day
+   - cron: '0 * * * *' # At 00:00 Every hour
    #- cron: '* * * * *' # every minute-- for testing
 jobs:
   build:
