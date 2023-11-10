@@ -27,12 +27,17 @@ jobs:
         #env:
           #SOME_SECRET: ${{ secrets.SOME_SECRET }}
         run: python get_schedule.py
-
+        
+      - name: pull
+        uses: ad-m/github-pull-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+ 
       - name: commit files
         run: |
           git config --local user.email "jacobawinter@gmail.com"
           git config --local user.name "GitHub Action"
-          git pull
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "update pool schedule" --allow-empty)
 
