@@ -20,9 +20,13 @@ def get_data(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     tab = soup.find_all(id = 'dropin_Swimming_0') # get drop in swimming table
-    rows = pd.read_html(str(tab))[0]
+    #replace newlines with hr tags
+    tab = str(tab)
+    tab = tab.replace('<hr>','<\n>')
+    rows = pd.read_html(tab)[0]
     rows = rows[rows['Program'] == 'Lane Swim (7yrs and over)']
     return(rows)
+
 
 jimmie = get_data("https://www.toronto.ca/data/parks/prd/facilities/complex/58/index.html")
 pam = get_data("https://www.toronto.ca/data/parks/prd/facilities/complex/2012/index.html")
@@ -43,6 +47,7 @@ df = df[cols]
 #save as html table
 html = df.to_html(index = False)
 # html = html.replace('<table border="1" class="dataframe">', '<table class="table table-striped">')
+html = html.replace('<table border="1" class="dataframe">', '<table class="table table-striped">')
 html = html.replace('<thead>', '<thead class="thead-dark">')
 html = html.replace('<tr style="text-align: right;">','<tr>')
 html = html.replace('<tr>','<tr class="table-primary">')
@@ -55,7 +60,6 @@ f.close()
 
 #Today
 today = df[['Location', now]]
-
 
 #save as html table
 html = today.to_html(index = False)
