@@ -1,4 +1,4 @@
-# Ignore the contents of the _site directory
+ # Ignore the contents of the _site directory
 _site/
 
 # Ignore the directory for local files during development

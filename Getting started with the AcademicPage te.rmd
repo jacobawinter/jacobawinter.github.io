@@ -1,0 +1,71 @@
+Getting started with the AcademicPage template on GitHub to create your personal academic website involves several steps. Here's a guide to help you through the process:
+
+### Step 1: Fork the AcademicPage Repository
+1. **Navigate to the AcademicPage repository on GitHub**: Go to the repository page, typically `https://github.com/academicpages/academicpages.github.io`.
+2. **Fork the repository**: Click on the "Fork" button on the top right of the repository page to create a copy of the repository under your GitHub account.
+
+### Step 2: Rename the Repository
+1. **Rename your forked repository**: Go to your GitHub repositories and find the newly forked `academicpages.github.io`. Click on "Settings" and change the repository name to `[your-username].github.io`. This is important because GitHub will use this naming convention to serve your website at `https://[your-username].github.io`.
+
+### Step 3: Clone the Repository Locally
+1. **Clone the repository to your local machine**: Open your terminal and run the following command:
+   ```sh
+   git clone https://github.com/[your-username]/[your-username].github.io
+   ```
+2. **Navigate into the repository directory**:
+   ```sh
+   cd [your-username].github.io
+   ```
+
+### Step 4: Install Jekyll and Dependencies
+1. **Install Ruby**: Ensure you have Ruby installed on your machine. You can check by running:
+   ```sh
+   ruby -v
+   ```
+   If it's not installed, download and install it from [ruby-lang.org](https://www.ruby-lang.org/en/documentation/installation/).
+
+2. **Install Jekyll and Bundler**:
+   ```sh
+   gem install jekyll bundler
+   ```
+
+3. **Install dependencies**: Navigate to your cloned repository directory and run:
+   ```sh
+   bundle install
+   ```
+
+### Step 5: Customize Your Site
+1. **Configure the site**: Open `_config.yml` in your repository's root directory and customize it with your personal information. Update fields like `title`, `email`, `description`, and `author`.
+
+2. **Add your content**: Customize the existing pages and add new ones as needed. The main content files are located in `_pages`, `_posts`, and `_publications`.
+
+3. **Run Jekyll locally**: To see your changes live as you edit, run:
+   ```sh
+   bundle exec jekyll serve
+   ```
+   This will build your site and serve it locally at `http://localhost:4000`.
+
+### Step 6: Push Changes to GitHub
+1. **Commit your changes**:
+   ```sh
+   git add .
+   git commit -m "Initial customization"
+   ```
+2. **Push your changes to GitHub**:
+   ```sh
+   git push origin main
+   ```
+
+### Step 7: Enable GitHub Pages
+1. **Configure GitHub Pages**: Go to the settings of your repository on GitHub. Scroll down to the "GitHub Pages" section.
+2. **Select the source**: From the dropdown menu, select the branch you want to use (typically `main`).
+
+### Step 8: Access Your Site
+- **Visit your site**: Go to `https://[your-username].github.io` to see your personal academic website live.
+
+### Additional Customizations
+- **Add publications**: Use the `_publications` folder to add your publications in the proper format.
+- **Add posts**: Use the `_posts` folder for your blog posts or news updates.
+- **Customize layout and style**: Modify the `_layouts`, `_includes`, and `_sass` directories to change the look and feel of your site.
+
+By following these steps, you should have a fully functional personal academic website up and running using the AcademicPage template on GitHub.
