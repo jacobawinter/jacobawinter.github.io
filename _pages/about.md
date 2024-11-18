@@ -11,7 +11,7 @@ redirect_from:
 
 Welcome!
 
-I am a PhD candidate in the Department of Political Science at the University of Toronto. I study the political economy of development, examining how access to markets, resource rents, and political leverage leads politicians pursue different policy agendas. I draw on computational social science methods, but am happiest learning from humans. My research is forthcoming in *Political Science Research and Methods*.
+I am a PhD candidate in the Department of Political Science at the University of Toronto. I study the political economy of development, examining why leaders pursue divergent policy priorities. My research uses quantitative methods, including computational text analysis and GIS.
 
-At UofT, I've been affiliated with the [Global Economic Policy Lab](https://munkschool.utoronto.ca/gepl/people) at the Munk School of Global Affairs and Public Policy and the [International Centre for Tax and Development](https://logri.org/project/potential-models-for-linking-revenues-with-public-services-in-lilongwe-mzuzu-zomba-and-blantyre-city-councils/). In the past, I worked with nonprofits to help them effectively learn from their data. For more, check out my [CV](/files/CV_WinterJ_2024.09.pdf).
+At UofT, I've been affiliated with the [Global Economic Policy Lab](https://munkschool.utoronto.ca/gepl/people) at the Munk School of Global Affairs and Public Policy and the [International Centre for Tax and Development](https://logri.org/project/potential-models-for-linking-revenues-with-public-services-in-lilongwe-mzuzu-zomba-and-blantyre-city-councils/). In the past, I helped nonprofits effectively learn from their data. For more, check out my [CV](/files/CV_WinterJ_2024.09.pdf).
 
