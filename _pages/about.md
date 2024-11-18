@@ -11,7 +11,7 @@ redirect_from:
 
 Welcome!
 
-I am a PhD candidate in the Department of Political Science at the University of Toronto. I study the political economy of development, examining why leaders pursue divergent policy priorities. My research uses quantitative methods, including computational text analysis and GIS.
+I am a PhD Candidate in Political Science at the University of Toronto. My research focuses on how leaders spread their attention across policy problems. My dissertation project explores the impact of of external finance and electoral pressures on political speech and budget allocations in Zambia and Ghana.
 
-At UofT, I've been affiliated with the [Global Economic Policy Lab](https://munkschool.utoronto.ca/gepl/people) at the Munk School of Global Affairs and Public Policy and the [International Centre for Tax and Development](https://logri.org/project/potential-models-for-linking-revenues-with-public-services-in-lilongwe-mzuzu-zomba-and-blantyre-city-councils/). In the past, I helped nonprofits effectively learn from their data. For more, check out my [CV](/files/CV_WinterJ_2024.09.pdf).
+At UofT, I've been affiliated with the [Global Economic Policy Lab](https://munkschool.utoronto.ca/gepl/people) at the Munk School of Global Affairs and Public Policy and the [International Centre for Tax and Development](https://logri.org/project/potential-models-for-linking-revenues-with-public-services-in-lilongwe-mzuzu-zomba-and-blantyre-city-councils/). Before starting my PhD, I worked in a variety of roles in nonprofits in Canada, Malawi, and Japan. For more, check out my [CV](/files/CV_WinterJ_2024.09.pdf).
 
