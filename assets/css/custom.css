@@ -1,17 +1,23 @@
-.container {
-    width:100%;
-    border:1px solid #d3d3d3;
+/* Place this in your _sass or assets/css directory */
+.masthead__menu {
+    display: flex;
+    justify-content: flex-end;  /* This aligns the menu to the right */
+    align-items: center;
+    margin-left: auto;  /* Pushes the menu to the right side */
 }
-.container div {
-    width:100%;
+
+.greedy-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
-.container .header {
-    background-color:#d3d3d3;
-    padding: 2px;
-    cursor: pointer;
-    font-weight: bold;
+
+.greedy-nav .visible-links {
+    margin-left: auto;  /* Alternative method to push links right */
+    display: flex;
 }
-.container .content {
-    display: none;
-    padding : 5px;
+
+/* Optional: If you want some spacing between menu items */
+.greedy-nav a {
+    margin-left: 15px;
 }
