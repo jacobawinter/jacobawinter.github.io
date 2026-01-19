@@ -3,3 +3,5 @@ main:
     
   - title: "CV"
     url: /files/CV_WinterJacob.pdf
+  - title: "Data"
+    url: /data/
