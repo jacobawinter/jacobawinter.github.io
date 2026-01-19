@@ -1,7 +1,10 @@
 # main links links
 main:
-    
+  - title: "About"
+    url: /about/
+    internal: true
   - title: "CV"
     url: /files/CV_WinterJacob.pdf
   - title: "Data"
     url: /data/
+
